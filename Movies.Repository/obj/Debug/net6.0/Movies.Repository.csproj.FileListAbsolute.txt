@@ -1,0 +1,17 @@
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\bin\Debug\net6.0\Movies.Repository.deps.json
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\bin\Debug\net6.0\Movies.Repository.runtimeconfig.json
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\bin\Debug\net6.0\Movies.Repository.dll
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\bin\Debug\net6.0\Movies.Repository.pdb
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\obj\Debug\net6.0\Movies.Repository.csproj.AssemblyReference.cache
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\obj\Debug\net6.0\Movies.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\obj\Debug\net6.0\Movies.Repository.AssemblyInfoInputs.cache
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\obj\Debug\net6.0\Movies.Repository.AssemblyInfo.cs
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\obj\Debug\net6.0\Movies.Repository.csproj.CoreCompileInputs.cache
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\obj\Debug\net6.0\Movies.Repository.dll
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\obj\Debug\net6.0\refint\Movies.Repository.dll
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\obj\Debug\net6.0\Movies.Repository.pdb
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\obj\Debug\net6.0\Movies.Repository.genruntimeconfig.cache
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\obj\Debug\net6.0\ref\Movies.Repository.dll
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\bin\Debug\net6.0\Movies.Core.dll
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\bin\Debug\net6.0\Movies.Core.pdb
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\obj\Debug\net6.0\Movies.Repository.csproj.CopyComplete

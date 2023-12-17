@@ -1,0 +1,11 @@
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Core\bin\Debug\net6.0\Movies.Core.deps.json
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Core\bin\Debug\net6.0\Movies.Core.dll
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Core\bin\Debug\net6.0\Movies.Core.pdb
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Core\obj\Debug\net6.0\Movies.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Core\obj\Debug\net6.0\Movies.Core.AssemblyInfoInputs.cache
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Core\obj\Debug\net6.0\Movies.Core.AssemblyInfo.cs
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Core\obj\Debug\net6.0\Movies.Core.csproj.CoreCompileInputs.cache
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Core\obj\Debug\net6.0\Movies.Core.dll
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Core\obj\Debug\net6.0\refint\Movies.Core.dll
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Core\obj\Debug\net6.0\Movies.Core.pdb
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Core\obj\Debug\net6.0\ref\Movies.Core.dll
