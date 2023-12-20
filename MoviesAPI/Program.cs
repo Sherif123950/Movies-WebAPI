@@ -20,6 +20,8 @@ namespace MoviesAPI
 
 			builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
+			builder.Services.AddScoped<IMovieRepository, MovieRepository>();
+
 			builder.Services.AddDbContext<ApplicationDbContext>(options =>
 			options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 

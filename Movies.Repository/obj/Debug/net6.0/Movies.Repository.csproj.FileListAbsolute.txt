@@ -15,3 +15,4 @@ D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\obj\Debug\net6.0\ref\Mov
 D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\bin\Debug\net6.0\Movies.Core.dll
 D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\bin\Debug\net6.0\Movies.Core.pdb
 D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\obj\Debug\net6.0\Movies.Repository.csproj.CopyComplete
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Repository\obj\Debug\net6.0\Movies.Repository.sourcelink.json

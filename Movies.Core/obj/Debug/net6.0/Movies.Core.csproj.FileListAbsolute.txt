@@ -9,3 +9,4 @@ D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Core\obj\Debug\net6.0\Movies.Core.d
 D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Core\obj\Debug\net6.0\refint\Movies.Core.dll
 D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Core\obj\Debug\net6.0\Movies.Core.pdb
 D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Core\obj\Debug\net6.0\ref\Movies.Core.dll
+D:\Divcreed Projects\WebAPI\MoviesAPI\Movies.Core\obj\Debug\net6.0\Movies.Core.sourcelink.json

@@ -45,16 +45,27 @@ namespace MoviesAPI.Controllers
 			return Ok(genre);
         }
 		[HttpPut("{id}")]
-		public async Task<IActionResult> UpdateGenre(byte id, [FromBody] CreateGenreDto model)
+		public async Task<IActionResult> UpdateGenreAsync(byte id, [FromBody] CreateGenreDto model)
 		{
 			var genre = await _genreRepository.GetByIdAsync(id);
 			if (genre is null)
 				return NotFound("There is no genre with this Id");
 			genre.Name = model.Name;
-			var Result = await _genreRepository.UpdateAsync();
+			var Result = await _genreRepository.UpdateAsync(genre);
 			if (!(Result > 0))
 				return BadRequest();
 			return Ok(genre);
+        }
+		[HttpDelete("{id}")]
+		public async Task<IActionResult> DeleteGenreAsync(byte id) 
+		{
+			var Genre = await _genreRepository.GetByIdAsync(id);
+			if (Genre is null)
+				return NotFound("There isno genre with this id :(");
+			var Result = await _genreRepository.DeleteAsync(Genre);
+			if (Result < 1 )
+				return BadRequest();
+			return Ok(Genre);
         }
 	}
 }

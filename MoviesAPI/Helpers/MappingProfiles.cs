@@ -9,6 +9,9 @@ namespace MoviesAPI.Helpers
 		public MappingProfiles()
 		{
 			CreateMap<CreateGenreDto, Genre>().ReverseMap();
+			CreateMap<UpdateMovieDto,Movie>().ForMember(dst => dst.Poster, opt => opt.Ignore()).ReverseMap();
+			CreateMap<MovieDto,Movie>().ForMember(dst=>dst.Poster,opt=>opt.Ignore()).ReverseMap();
+			CreateMap<Movie,MovieToReturnDto>().ForMember(dst=>dst.GenreName,opt=>opt.MapFrom(src=>src.Genre.Name)).ReverseMap();
 		}
 	}
 }

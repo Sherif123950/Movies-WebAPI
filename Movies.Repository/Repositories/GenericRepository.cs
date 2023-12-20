@@ -30,17 +30,32 @@ namespace Movies.Repository.Repositories
 
 			if (typeof(T) == typeof(Genre))
 			{
-				return (IEnumerable<T>) await _dbContext.Genres.OrderBy(g=>g.Name).ToListAsync();
+				return (IEnumerable<T>)await _dbContext.Genres.OrderBy(g => g.Name).ToListAsync();
+			}
+			if (typeof(T) == typeof(Movie))
+			{
+				return (IEnumerable<T>)await _dbContext.Movies.OrderByDescending(f => f.Rate).Include(M => M.Genre).ToListAsync();
 			}
 			return await _dbContext.Set<T>().ToListAsync();
 		}
-		public async Task<T> GetByIdAsync(byte id)
+		public async Task<T?> GetByIdAsync(byte id)
 		{
 			return await _dbContext.Set<T>().FindAsync(id);
 		}
 
-		public Task<int> UpdateAsync()
+		public Task<int> UpdateAsync(T model)
 		{
+			if (typeof(T) == typeof(Movie))
+			{
+				var movie = model as Movie;
+				_dbContext.Movies.Update(movie);
+				return _dbContext.SaveChangesAsync();
+			}
+			return _dbContext.SaveChangesAsync();
+		}
+		public Task<int> DeleteAsync(T model)
+		{
+			_dbContext.Remove(model);
 			return _dbContext.SaveChangesAsync();
 		}
 	}

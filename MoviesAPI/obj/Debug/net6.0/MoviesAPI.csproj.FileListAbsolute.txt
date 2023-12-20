@@ -72,3 +72,4 @@ D:\Divcreed Projects\WebAPI\MoviesAPI\MoviesAPI\bin\Debug\net6.0\Movies.Core.dll
 D:\Divcreed Projects\WebAPI\MoviesAPI\MoviesAPI\bin\Debug\net6.0\Movies.Core.pdb
 D:\Divcreed Projects\WebAPI\MoviesAPI\MoviesAPI\bin\Debug\net6.0\AutoMapper.dll
 D:\Divcreed Projects\WebAPI\MoviesAPI\MoviesAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Divcreed Projects\WebAPI\MoviesAPI\MoviesAPI\obj\Debug\net6.0\MoviesAPI.sourcelink.json

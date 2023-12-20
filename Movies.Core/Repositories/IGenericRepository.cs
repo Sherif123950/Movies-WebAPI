@@ -9,8 +9,9 @@ namespace Movies.Core.Repositories
 	public interface IGenericRepository<T> where T : class
 	{
 		Task<IEnumerable<T>> GetAllAsync();
-		Task<T> GetByIdAsync(byte id);
+		Task<T?> GetByIdAsync(byte id);
 		Task<int> CreateAsync(T model);
-		Task<int> UpdateAsync();
+		Task<int> UpdateAsync(T model);
+		Task<int> DeleteAsync(T model);
 	}
 }
